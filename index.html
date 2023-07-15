@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="https://bnz05pap002files.storage.live.com/y4mIh9usgT1qIP9EjYag5dUzcaOOKVt6eQN06pZL6_dxXg9I06LkD7dYQNbxb8GTbvzgXx6VSWGxKnk0BkkOHcJZpHmyrF8K0REgdAjy_gLZJQ3rn4NTs1lMX_Dg79XAj3QGaD1uSRACqKCFNsksXqecvVf-UUBIBJS0_qYuaVUD4a7BTmGAskC_NNBk5v5YDVX?width=501&height=498&cropmode=none">
+        <title>Laundry Walaa Official Website</title>
+         <meta charset="UTF-8">
+            <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+        <meta name="description" content="CSS Shape and creatures and manymore.">
+        <meta name="viewport" content="width=device-width , initial-scale=1, user-scalable = 0 ">
+        <link href='https://fonts.googleapis.com/css?family=Yellowtail:400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html,body{
+    scrollbar-width: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+        }
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(fancy.otf);
+}
+
+.side-logo{
+    font-family: myFont;
+    font-size: 2.8vw;
+    font-weight: 300;
+    color: teal;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+.sd-img{
+    width: 5%;
+    height: 6%;
+}
+
+.nav{
+    position: fixed;
+    top: 5%;
+    right: 2%;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    padding: 3%;
+    line-height: 30px;
+    transform: translateX(105%); 
+    transition: 0.5s linear;
+}
+
+.show{
+    position: fixed;
+    top: 5%;
+    right: 2%;
+    border-radius: 20px;
+    padding: 3%;
+    line-height: 30px;
+    transform: translateX(0%); 
+    transition: 0.5s linear;
+}
+
+#header ul li{
+    list-style: none;
+    margin-left: 3%;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+#header ul li a{
+    padding-top: 2px;
+    padding-left: 3px;
+    text-decoration: none;
+    color: teal;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+#header ul li a:hover,#header ul li a:active{
+    background-color: teal;
+    color: white;
+}
+
+#arrow{
+    font-size: large;
+   padding-left: 20%;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:100px;
+    background: linear-gradient(to top,#094b65,transparent);
+    z-index: 10;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+@font-face {
+    font-family: myFont5;
+    src: url(comic.ttf);
+}
+
+section #text{
+    position: absolute;
+   text-align: center;
+   font-size: 10vw;
+   transform: translateY(-190px);
+   font-family: myFont5;
+}
+
+#text1{
+    position: absolute;
+   text-align: center;
+   font-size: 10vw;
+   transform: translateY(-190px);
+   font-family: myFont5;
+}
+
+@font-face {
+    font-family: myFont2;
+    src: url(news.ttf);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(55px);
+}
+
+ .punch{
+    position: absolute;
+    color:teal;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: myFont2;
+    margin-top: -5%;
+}
+
+#btn1{
+    display: inline-block;
+    padding: 3.5%;
+    background-color:white;
+    color: #094b65;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    border-style: none;
+    transform: translateY(100px);
+    font-family: 'Rancho', cursive;
+}
+
+#btn1:hover{
+    background-color: #094b65;
+    color: white;
+}
+
+section h2:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(53, 176, 218);
+}
+
+section h2:nth-child(2){
+    color:rgb(53, 176, 218);
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+        clip-path: polygon(0% 38.5%, 0% 100%, 100% 100%, 100% 51.2%, 80.09% 55.43%, 60.77% 68.28%, 41.04% 63.74%, 20.02% 21.26%);
+    }
+
+    50%{
+        clip-path: polygon(0% 76.18%, 0% 100%, 100% 100%, 100% 6.2%, 75.01% 23.69%, 66.77% 51.2%, 48.32% 76.18%, 21.4% 84.36%);
+    }
+}
+
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   /* object-fit: cover; */
+    pointer-events: none;
+}
+
+#hang1{
+    object-fit:contain;
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 47%;
+    left: -15%;
+}
+
+#washmach{
+    object-fit:contain;
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 54%;
+    left: 55%;
+}
+
+.sec{
+    margin-top: -15%;
+    position:absolute;
+}
+
+.sec .video{
+    width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit:cover;
+  z-index: -1000;
+}
+
+.glow-text{
+    text-align: center; 
+     -webkit-box-reflect: below -10px linear-gradient(transparent,#5271ff);
+}
+
+.glow-text span{
+    text-transform: uppercase;
+    position: relative;
+    font-size: 22px;
+    color: #fff;
+    font-family: "Yellowtail", sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    animation:wave 1s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+}
+
+@keyframes wave{
+    0%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(-20px);
+    }
+    40%,100%{
+        transform: translateY(0px);
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+.para1{
+    padding: 3%;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    font-weight: 300;
+    font-family: myFont2;
+}
+
+.p{
+    transform: translateY(20px);
+    opacity: 0.1;
+    transition: 0.8s ease-in-out;
+}
+
+.fade{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.centera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide1{
+    transform: translateX(150%);
+    opacity: 0;
+    transition: .8s ease-in-out;
+    padding-top: 4%;
+    width: 50%;
+    height: 20%;
+}
+
+.sl1{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.cards{
+    margin:auto;
+    width: 80%;
+    background-color: #094b65;
+    height: 600px;
+    margin-top: 6%;
+}
+
+
+@font-face {
+    font-family: myFont3;
+    src: url(heavybrush.ttf);
+}
+
+.card-head{
+    position: absolute;
+    padding: 4%;
+   text-align: center;
+    font-size: 25px;
+    font-family: myFont3;
+    color:white;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+}
+
+.rate-head{
+    padding: 4%;
+   text-align: center;
+    font-size: 18px;
+    font-family: myFont3;
+    color:white;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+}
+
+.rate-head-l{
+
+    display: inline-block;
+    padding: 2%;
+    font-size: 15px;
+    font-family: myFont3;
+    color:white;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+}
+
+.rate-head-r{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    padding: 2%;
+    font-size: 15px;
+    font-family: myFont3;
+    color:white;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+}
+
+.rate-l{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 5%;
+    font-weight: 500;
+    font-family: myFont2;
+    color:white;
+}
+
+.rate-r{
+    position: absolute;
+    right: 0;
+ display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: myFont2;
+    color:white;
+}
+
+.hang-slide{
+    padding-top: 8%;
+    padding-bottom: 2%;
+    width: 30%;
+    height: 150px;
+    transition: .8s ease-in-out;
+}
+
+.sl2{
+    width: 100%;
+    height: 150px;
+}
+
+.btn1{
+   margin-top: 2%;
+    padding: 3.5%;
+    background-color:white;
+    color: #094b65;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    border-style: none;
+    font-family: 'Rancho', cursive;
+}
+
+.btn1:hover{
+    background-color:#094b65;
+    color: white;
+}
+
+.wrapper div{
+    background-color: rgb(145, 219, 248);
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(145, 219, 248);
+    border-radius: 50px;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    z-index: 10000;
+    opacity: 0;
+    animation: .4s linear  infinite;
+}
+
+.wrapper div .dot{
+    height: 5px;
+    width: 5px;
+    border-radius: 50px;
+    background: rgba(255,255,255,0.5);
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.wrapper div:nth-child(1){
+    top: 90%;
+    left: 20%;
+    animation: .8s linear  infinite;
+}
+
+.wrapper div:nth-child(2){
+    top: 80%;
+    left: 80%;
+    animation: 1s linear  infinite;
+}
+
+.wrapper div:nth-child(3){
+    top: 60%;
+    left: 40%;
+    animation: .5s linear  infinite;
+}
+
+.wrapper div:nth-child(4){
+    top: 95%;
+    left: 40%;
+    animation: .7s linear  infinite;
+}
+
+.wrapper div:nth-child(5){
+    top: 95%;
+    left: 90%;
+    animation: 1s linear  infinite;
+}
+
+.wrapper div:nth-child(6){
+    top: 95%;
+    left: 10%;
+    animation: .5s linear  infinite;
+}
+
+.wrapper div:nth-child(7){
+    top: 95%;
+    left: 25%;
+    animation: .7s linear  infinite;
+}
+
+.wrapper div:nth-child(8){
+    top: 91%;
+    left: 60%;
+    animation: 1s linear  infinite;
+}
+
+.wrapper div:nth-child(9){
+    top: 95%;
+    left: 70%;
+    animation: .5s linear  infinite;
+}
+
+.wrapper div:nth-child(10){
+    top: 95%;
+    left: 50%;
+    animation: .7s linear  infinite;
+}
+
+.wrapper div:nth-child(11){
+    top: 95%;
+    left: 95%;
+    animation: .7s linear  infinite;
+}
+
+.wrapper div:nth-child(12){
+    top: 95%;
+    left: 0%;
+    animation: 1s linear  infinite;
+}
+
+.wrapper div:nth-child(13){
+    top: 75%;
+    left: 30%;
+    animation: .5s linear  infinite;
+}
+
+.wrapper div:nth-child(14){
+    top: 55%;
+    left: 37%;
+    animation: .7s linear  infinite;
+}
+
+
+@keyframes bubbles{
+    0%{
+        opacity: 1;
+        transform: scale(0) translateY(0) rotate(70deg);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1.3) translateY(-400px) rotate(360deg);
+    }
+}
+
+.fac-head{
+    text-align: center;
+    padding: 3%;
+    font-size: 13px;
+    font-family: myFont3;
+    color:white;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+}
+
+.para-fac{
+    padding: 3%;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    font-weight: 300;
+    font-family: myFont2;
+}
+
+.fac{
+    padding: 5%;
+    width: 70%;
+    margin: auto;
+    background-color: #094b65;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.fac:hover{
+    background-color:black;
+    box-shadow: 2px 3px 5px 5px rgb(34, 30, 30);
+}
+
+.para-w{
+    padding: 3%;
+    margin-left: 5%;
+    font-size: medium;
+    color: white;
+    font-weight: 300;
+    font-family: myFont2;
+}
+
+.para-w li{
+    margin-top: 2%;
+}
+
+.c-head{
+    text-align: center;
+    padding: 5%;
+    font-size: 20px;
+    font-family: myFont3;
+    color:white;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+}
+
+.icons{
+   margin-top: 4%;
+   margin-bottom: 5%;
+}
+
+.icons i{
+   font-size: 25px;
+}
+
+.icons i:hover{
+   font-size: 27px;
+   background-color: #094b65;
+   border-radius: 50%;
+}
+
+#scroll-top{
+    position: fixed;
+    top: 90%;
+    right: 5%;
+    background-color: white;
+    border-radius: 20px;
+    font-size: large;
+    opacity: 0.5;
+}
+
+.cards video{
+    width: 80%;
+    height: 600px;
+  position: absolute;
+  object-fit:fill;
+  opacity: 0.5;
+  z-index:0;
+}
+
+.center-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(45px);
+    margin-bottom: 20%;
+}
+
+
+#details{
+   position: fixed;
+   top: 10%;
+   left: 10%;
+    width: 80%;
+    background-color:#094b65;
+    padding: 5%;
+    display:none;
+}
+
+.dtl{
+    background-color:red;
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    color:black;
+    font-family: myFont1;
+}
+
+.info{
+    font-size: 18px;
+    color:black;
+    font-family: myFont2;
+    margin-top: 2%;
+}
+
+.inps{
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 5px solid black;
+    outline: none;
+    font-size: large;
+    color: red;
+    font-family: myFont2;
+}
+
+.btn-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    width: 50%;
+    height: 40px;
+    background-color: red;
+    color: black;
+    font-family: myFont2;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: inset;
+}
+
+</style>
+    </head>
+
+     <body>
+
+        <div id="details">
+            <p class="dtl">Schedule PickUp</p>
+            <p class="info">Name: </p> <input type="text" class="inps" id="nameInp" />
+            <p class="info">Address:<input type="text" class="inps" id="addressInp" /></p> 
+            <p class="info">Mobile No: <input type="tel" class="inps" id="mobInp" /></p> 
+            <div class="centera">  <input type="date" value="2023-04-03" class="inps" id="dateInp" /> </div>
+            <div class="btn-style"> <button type="submit" class="submit" id="submit">Place Order</button> </div>
+            </div>
+
+
+        <div class="wrapper">
+            <div class="ani"><span class="dot"></span></div>
+            <div class="ani"><span class="dot"></span></div>
+             <div class="ani"><span class="dot"></span></div>
+              <div class="ani"><span class="dot"></span></div>
+              <div class="ani"><span class="dot"></span></div>
+              <div class="ani"><span class="dot"></span></div>
+              <div class="ani"><span class="dot"></span></div>
+              <div class="ani"><span class="dot"></span></div>
+              <div class="ani"><span class="dot"></span></div>
+               <div class="ani"><span class="dot"></span></div>
+                <div class="ani"><span class="dot"></span></div>
+                <div class="ani"><span class="dot"></span></div>
+                <div class="ani"><span class="dot"></span></div>
+                <div class="ani"><span class="dot"></span></div>
+            </div>
+
+            <div id="form">
+
+        <div class="center"><p class="punch" id="punch">It's time for a new generation Laundry</p></div>
+        <section>
+            <h2 id="text">Laundry Walaa</h2>
+            <h2 id="text1">Laundry Walaa</h2>
+            <img id="bird1" src="https://bnz05pap002files.storage.live.com/y4m21KI9_85mhhNwtdwZBxORubhZPNdMWKKr_P0VSSFfWdFuMsv5abp_9zBh_Y113JVoRKCxoTX3aN2nmQa4vXPL0ThP4UWSF9M9EYkNfdXdj3zwNNQ5HZ5asAlVvZJdVUs1kjmIf0TwTVa7p-bh2sF7Hb-jn11l_xo0Ftt7M1ayHAyARj4u3LxG_5ALrRCr5fn?width=2049&height=1152&cropmode=none">
+            <img id="bird2" src="https://bnz05pap002files.storage.live.com/y4mD45xgo9THcQBwk8MNK1wPAgOH5bvBo9doDXbIFOWT6DSsfEXKeKbRJASmUj_Eb6mS0FnenTdc2kTusogC1RrLvtsfnCEs3KtJnRDBREE15YuvmCXcpo21eovQaEAInrhlCPN4_j1T_G_KBB-DN_lgOEonupoxhVY-oh8LqqMyQBTL4tjnSNxdPSEUzn7Wb3h?width=2049&height=1152&cropmode=none">
+            <img id="forest" src="https://bnz05pap002files.storage.live.com/y4mhkfzY4QYsA8GejnkDtP7z5VQi5LDEM4WgoVux472Vky0v6Tcs1Z3WTIlXdWOhyHz6YWKIM0umLi0Cpbn_fYhr761sHYKKcTq2Y-LpekWBoflutvL0EWdKYtUUmmAJgxwq_CVMSg2Oqr3OGU_GsS8kURo-Z1B01A8Wljw8dZaHIRZwYN9ofasYw1A-weAfc_v?width=2049&height=1152&cropmode=none">
+            <img id="rocks" src="https://bnz05pap002files.storage.live.com/y4m86aq0000QWhKILk2ue-C5HOr8tmTFhhfV4BOreHrSnBXWbx2qQvS2aofYsCs4MXsby9rhZjtRrfVDqI8gpIqnKSJrfH6J1R825t3eY3JKJGYfo4m_uK5x2-fzFoA_FD8amXELtavJxbC_fZ2-o2z9pjqw-VCfWsmoOsK-PsG86iFK7WGOxVEil6JCcVjNimy?width=2049&height=1152&cropmode=none">
+            <img id="hang1" src="https://bnz05pap002files.storage.live.com/y4mjVqGL3SfMN1Q5Tq5R3XF_uWFVMLEpcLC17deeeJS8ly9nEicRLni9S5eiB3BiXmerLjg1eJC4BnMC4D_KYQevEd51Dobhh5BoY0eFjs-TyTnmbhbQjvcvTNt4ZNNTt4zgrmNDR0JP_2hDKQb3j25f-fMsqpFzrm4Yg1MVnX3ulgK6XQUZFjMBonZibvCbDrO?width=559&height=446&cropmode=none">
+            <img id="washmach" src="https://bnz05pap002files.storage.live.com/y4mGv36l4BYBB3khTcKWlqfvZ2nuN3muAnUN88ubVCc88975bFh82trOttPvnmwk0JNy_tY_hdio63I5xf9reyfTGuB2wfP6m6DfDjtPWRyQKJn15iqkW-68dMHKB-OwnhVZhlwBMTXfzCVq_RxnMMPTlUh-pMqwlBeqcrIVsZKGuAgFLdYu8EG1g1IiZUKVXAm?width=500&height=500&cropmode=none">
+            <button type="submit" id="btn1">Try Now</button>
+            <img id="water" src="https://bnz05pap002files.storage.live.com/y4mY6yDVhjXwRU3ECG2caYJLXnkG4zaoovGEysdnYR3BcCo9y8u9XjMMY23bSGzx__QON2q5Iuo5B1QSCTM59uFj22lFp8deedzpo2aFwY1jN8tVmrgaaVWZZ7S1y3GhG9qEYBxjMsxIwoKXVJpbJG1L09WbyYgJ4IxSBeCLvoUlo7DVMuiAIKKg9eebYFz6UA8?width=2049&height=1152&cropmode=none">
+        </section> 
+
+        <div class="sec" id="sec">
+            <video class="video" no-controls autoplay muted loop>
+                <source src="https://onedrive.live.com/download?cid=AEC6FBDA5EB67D34&resid=AEC6FBDA5EB67D34%21195&authkey=AEy5AXIqIa-lOek"  type="video/mp4"/>
+            </video>
+           <div style="padding:60px;"><h2 class="glow-text" id="flag">
+               <span style="--i:1;">Freshen</span> <span style="--i:2;">Up</span> <span style="--i:3;">Your</span> <span style="--i:4;">Wardrobe</span></h2>  </div>
+  <p class="para1 p">
+    Doing laundry can be a time-consuming and tedious task, but it's an essential part of keeping your clothes clean and fresh. If you find yourself struggling to keep up with your laundry, let us take care of it for you. We provide a reliable and affordable laundry service that can take the burden off your shoulders. Our team of laundry experts will ensure that your clothes are cleaned, dried, and folded to perfection. You can trust us to handle your laundry needs with care and attention to detail, so you can focus on the things that matter most to you. Give us a try and see how our laundry service can make a positive difference in your life.
+</p>
+
+<div class="centera"><img class="slide1" id="img1" src="https://bnz05pap002files.storage.live.com/y4m2HAKno8dbGFW_DudyIyKPRghBLGj2xTD2XVHI81aBy2nr9Ml0mDvcmwBbZGqUup0ES7U-AVe9LhR2fcxh7W6iz-puLyhZD_CpJE6mIRWA-S9DjZk9GhF_VsgBoT0aMpeT-OgsU-f5K4H77EzGxFel4Q_Q7ylMbWM7X5GcjzcJwYA7zwBWYLfxEuwSQYO3O5V?width=714&height=350&cropmode=none"></div>
+
+<div style="padding:60px;"><h2 class="glow-text">
+<span style="--i:1;">O</span>
+<span style="--i:2;">u</span>
+<span style="--i:3;">r</span>&nbsp;&nbsp;&nbsp;
+<span style="--i:4;">S</span>
+<span style="--i:5;">e</span>
+<span style="--i:6;">r</span>
+<span style="--i:7;">v</span>
+<span style="--i:8;">i</span>
+<span style="--i:9;">c</span>
+<span style="--i:10;">e</span>
+<span style="--i:11;">s</span>
+</h2></div>
+
+<p class="para1 p">The services we provide is premium and of high quality at a very low and affordable prices</p>
+ 
+<div class="cards">
+    <video no-controls autoplay muted loop>
+        <source src="https://onedrive.live.com/download?cid=AEC6FBDA5EB67D34&resid=AEC6FBDA5EB67D34%21213&authkey=AGe--Mxzt69s7ho"  type="video/mp4"/>
+    </video>
+  <div class="center-card">  <p class="card-head">Wash & Iron</p> </div>
+    <p class="para1 p">
+        Wash and Iron services are an essential part of a laundry's offerings, and they can provide significant benefits to customers who want to keep their clothes looking and feeling their best.
+       <br><br> Our laundry uses top-of-the-line washing and ironing equipment to ensure that your clothes are cleaned thoroughly and gently. We also use high-quality detergents and fabric softeners to keep your clothes looking and feeling soft, fresh, and vibrant.</p>
+  </div>
+
+  <div class="cards">
+    <video no-controls autoplay muted loop>
+        <source src="https://onedrive.live.com/download?cid=AEC6FBDA5EB67D34&resid=AEC6FBDA5EB67D34%21216&authkey=AEeGSN-PZlxSwsw" width="320" height="180" <iframe src="https://onedrive.live.com/embed?cid=AEC6FBDA5EB67D34&resid=AEC6FBDA5EB67D34%21216&authkey=AEeGSN-PZlxSwsw"  type="video/mp4"/>
+    </video>
+    <div class="center-card">  <p class="card-head">Press & Iron</p> </div>
+     <p class="para1 p">
+        Pressing and ironing services are essential in ensuring that your clothes look neat and professional. Our laundry offers high-quality pressing and ironing services that will leave your clothes looking crisp and wrinkle-free.
+  <br><br>Our skilled professionals have years of experience in handling various fabrics, and they can deliver professional results that will leave you impressed.
+  Our team of professionals knows how to handle delicate fabrics, such as silk and wool, and they can ensure that your clothes are properly pressed and ironed without causing any damage.
+  <br><br>We take great care to ensure that our pressing and ironing services are safe and hygienic for our customers.   
+</p>
+  </div>
+
+  <div class="cards">
+    <video no-controls autoplay muted loop>
+        <source src="https://onedrive.live.com/download?cid=AEC6FBDA5EB67D34&resid=AEC6FBDA5EB67D34%21215&authkey=AOA7hCBhN310DHU"  type="video/mp4"/>
+    </video>
+    <div class="center-card"> <p class="card-head">Dry Cleaning</p> </div>
+    <p class="para1 p">
+        Dry cleaning is a specialized cleaning process that uses chemical solvents to clean delicate and sensitive fabrics. Our laundry offers high-quality dry cleaning services that will leave your clothes looking and feeling their best.
+ <br><br>Dry cleaning is a gentle cleaning process that is ideal for delicate fabrics such as silk, wool, and cashmere. Our laundry uses the best solvents and techniques to ensure that your clothes are cleaned thoroughly without causing any damage or discoloration.
+ Our team of professionals is trained to handle delicate fabrics and garments, and they can ensure that your clothes are properly cared for and maintained.
+    </p>
+  </div>
+
+  <div class="cards">
+    <video no-controls autoplay muted loop>
+        <source src="https://onedrive.live.com/download?cid=AEC6FBDA5EB67D34&resid=AEC6FBDA5EB67D34%21217&authkey=AJLirCWN6V0OfgQ"  type="video/mp4"/>
+    </video>
+    <div class="center-card"> <p class="card-head">Households</p>  </div>
+    <p class="para1 p">
+        At our laundry, we offer high-quality washing services for a variety of household items, including rugs, carpets, curtains, bedsheets, and more. 
+        <br><br> Our team of professionals is trained to handle various types of household items, including delicate fabrics and intricate designs. They use the best techniques and products to ensure that your items are cleaned thoroughly and safely.
+    </p>
+  </div>
+
+  <div class="cards">
+    <video no-controls autoplay muted loop>
+        <source src="https://onedrive.live.com/download?cid=AEC6FBDA5EB67D34&resid=AEC6FBDA5EB67D34%21218&authkey=AD2OwKJMYlO6opA"  type="video/mp4"/>
+    </video>
+    <div class="center-card"> <p class="card-head">Dyeing</p> </div>
+    <p class="para1 p">
+        Dyeing clothes is a great way to give your old clothes a fresh new look or to personalize them to suit your style. At our laundry, we offer high-quality dyeing services for a variety of clothes, and we use top-of-the-line equipment and techniques to ensure that your clothes are dyed to perfection.
+        <br><br>Our team of professionals is trained to handle various types of fabrics and materials, and they use the best techniques and products to ensure that your clothes are dyed safely and effectively.
+        Our skilled professionals have years of experience in dyeing various types of clothes, and they can deliver professional results that will leave you impressed.
+    </p>
+  </div>
+
+  <div class="cards">
+    <video no-controls autoplay muted loop>
+        <source src="https://onedrive.live.com/download?cid=AEC6FBDA5EB67D34&resid=AEC6FBDA5EB67D34%21220&authkey=ACmWNJZMBYGUs9g"  type="video/mp4"/>
+    </video>
+    <div class="center-card">  <p class="card-head">Hotels</p> </div>
+    <p class="para1 p">
+        As a hotel owner or manager, you understand the importance of presenting your guests with clean and comfortable accommodations. This includes fresh and clean bedding, towels, and pillow covers. At our laundry, we specialize in providing top-quality laundry services for hotels, and we have the experience and expertise to handle all of your hotel laundry needs. 
+        <br><br> Our team of professionals is trained to handle large volumes of laundry, and we use the best techniques and products to ensure that your hotel's bedding, towels, and pillow covers are washed safely and effectively.
+        We understand that time is of the essence in the hotel industry, and we guarantee that your hotel's laundry will be returned to you on time and ready for use.
+    </p>
+  </div>
+
+  <div class="cards">
+    <video no-controls autoplay muted loop>
+        <source src="https://onedrive.live.com/download?cid=AEC6FBDA5EB67D34&resid=AEC6FBDA5EB67D34%21219&authkey=AKJAyW3yQqluFzM"  type="video/mp4"/>
+    </video>
+    <div class="center-card"> <p class="card-head">Delivery</p> </div>
+    <p class="para1 p">
+        At our laundry, we understand that our customers have busy schedules and may not always have the time to drop off and pick up their laundry. That's why we offer free pickup and drop-off services to make it more convenient for our customers to use our laundry services. 
+        <br><br>Our free pickup and drop-off services make it more convenient for you to use our laundry services. You don't have to worry about finding the time to drop off and pick up your laundry - we'll take care of it for you!
+        Our team of professionals is trained to handle your laundry with care and ensure that it is transported safely and securely.
+    </p>
+  </div>
+
+  <div style="padding:60px;"><h2 class="glow-text">
+    <span style="--i:1;">P</span>
+    <span style="--i:2;">r</span>
+    <span style="--i:3;">i</span>
+    <span style="--i:4;">c</span>
+    <span style="--i:5;">i</span>
+    <span style="--i:6;">n</span>
+    <span style="--i:7;">g</span>
+    </h2></div>
+
+    <p class="rate-head">Wash & Iron</p>
+   <div> <p class="rate-head-l">Men's Premium</p>   <p class="rate-head-r">Ladies Premium</p><br></div>
+   <div> 
+   <ul class="rate-l">                          
+        <li>Shirt/Tshirt: Rs15</li>     
+        <li>Jeans/Formal: Rs20</li>
+        <li>Trouser: Rs20</li>
+        <li>Shorts: Rs10</li>
+        <li>Waist Coat: Rs59</li>
+      <li>Kurta(Set): Rs59</li>
+        <li>Panjabi: Rs39</li>
+        <li>Dhoti: Rs29</li>
+          <li>Innerwear: Rs10</li>
+    </ul>
+    <ul class="rate-r">
+        <li>Top: Rs10</li>
+        <li>Jeans: Rs14</li>
+        <li>Trouser: Rs20</li>
+        <li>Shorts: Rs10</li>
+        <li>Saree: Rs79</li>
+      <li>Kurti(Set): Rs59</li>
+        <li>Panjabi: Rs39</li>
+        <li>Saree(heavy): Rs109</li>
+          <li>Plazo Plain: Rs30</li>
+          <li>Blouse: Rs25</li>
+    </ul>
+    </div><br><br>
+
+   <div> <p class="rate-head-l">Men's Organic</p>   <p class="rate-head-r">Ladies Organic</p><br> </div>
+   <div> 
+    <ul class="rate-l">                          
+         <li>Shirt/Tshirt: Rs10</li>     
+         <li>Jeans/Formal: Rs14</li>
+         <li>Trouser: Rs15</li>
+         <li>Shorts: Rs10</li>
+         <li>Waist Coat: Rs49</li>
+       <li>Kurta(Set): Rs49</li>
+         <li>Panjabi: Rs29</li>
+         <li>Dhoti: Rs19</li>
+           <li>Innerwear: Rs10</li>
+     </ul>
+     <ul class="rate-r">
+         <li>Top: Rs10</li>
+         <li>Jeans: Rs14</li>
+         <li>Trouser: Rs15</li>
+         <li>Shorts: Rs10</li>
+         <li>Saree: Rs69</li>
+       <li>Kurti(Set): Rs49</li>
+         <li>Panjabi: Rs29</li>
+         <li>Saree(heavy): Rs99</li>
+           <li>Plazo Plain: Rs20</li>
+           <li>Blouse: Rs15</li>
+     </ul>
+     </div><br><br>
+
+     <div> <p class="rate-head-l">Households</p>   <p class="rate-head-r">Iron</p><br> </div>
+     <div> 
+        <ul class="rate-l">                          
+             <li>Bedsheet-D: Rs35</li>     
+             <li>Bedsheet-S: Rs25</li>
+             <li>Towel: Rs20</li>
+             <li>Hand Towel: Rs15</li>
+             <li>Pillow: Rs08</li>
+             <li>Blanket-D: Rs299</li>
+           <li>Blanket-S: Rs200</li>
+             <li>Curtain(Window): Rs25</li>
+             <li>Curtain(Door): Rs30</li>
+         </ul>
+         <ul class="rate-r">
+            <li>Shirt/Tshirt: Rs07</li>     
+            <li>Jeans/Formal: Rs08</li>
+            <li>Trouser: Rs08</li>
+            <li>Shorts: Rs05</li>
+            <li>Waist Coat: Rs15</li>
+          <li>Kurta(Set): Rs25</li>
+            <li>Panjabi: Rs15</li>
+            <li>Dhoti: Rs08</li>
+             <li>Top: Rs08</li>
+             <li>Jeans: Rs08</li>
+             <li>Trouser: Rs08</li>
+             <li>Shorts: Rs05</li>
+             <li>Saree: Rs25</li>
+           <li>Kurti(Set): Rs35</li>
+             <li>Panjabi: Rs20</li>
+             <li>Saree(heavy): Rs49</li>
+               <li>Plazo Plain: Rs15</li>
+               <li>Blouse: Rs10</li>
+         </ul>
+         </div><br><br><br><br><br><br><br><br>
+
+         <div><p class="rate-head-l">Dry Clean</p></div>
+   <div>
+    <ul class="rate-l">
+        <li>Suit(2pcs): Rs350</li>
+        <li>Suit(3pcs): Rs420</li>
+        <li>Lehenga: Rs599</li>
+        <li>Lehenga Bridal: Rs999</li>
+    </ul>
+   </div>
+
+   <div class="centera"><button type="submit" id="btn2" class="btn1">Schedule Now</div>
+
+   <div class="centera"><img class="hang-slide" src="https://bnz05pap002files.storage.live.com/y4mKxnP7MHQW0LuVyOiLaI8jjzS5z2_PtPb25ylS-a9Bpu7geMVCq9h0N6R2W1FhTj-muOJf93CwUF0M4yCJTmkMlQUEo9jJQp3j068BctHQxF-GZ_Y6UierdRrWJltiXfE8pDE7JLjbZWgLTjW4Z2zGxDYh7mmkYzeH0nenvBzPNFAgCtQh8AOMeZj-UDB4EZZ?width=604&height=413&cropmode=none"></div>
+
+   <div style="padding:60px;"><h2 class="glow-text">
+    <span style="--i:1;">F</span>
+    <span style="--i:2;">a</span>
+    <span style="--i:3;">c</span>
+    <span style="--i:4;">i</span>
+    <span style="--i:5;">l</span>
+    <span style="--i:6;">i</span>
+    <span style="--i:7;">t</span>
+    <span style="--i:8;">i</span>
+    <span style="--i:9;">e</span>
+    <span style="--i:10;">s</span>
+    </h2></div>
+
+    <div class="fac">
+           <p class="fac-head"> Premium Packaging </p>
+           <p class="para-fac">At our laundry company, we understand that the presentation of your clothing and textiles is just as important as the cleanliness of the items themselves. That's why we offer premium packaging options for our customers who want to take their laundry experience to the next level.</p>
+        </div>
+
+        <div class="fac">
+            <p class="fac-head"> OnDemad Delivery </p>
+            <p class="para-fac">With our on-demand delivery service, you no longer have to worry about finding time in your busy schedule to drop off or pick up your laundry. Simply schedule a pickup time that works for you, and our team will pick up your laundry from your home or office.</p>
+        </div>
+
+        <div class="fac">
+            <p class="fac-head"> Ecofriendly Washing Option </p>
+            <p class="para-fac">Our eco-friendly washing options use high-efficiency machines and specially formulated detergents that are biodegradable and free from harsh chemicals. We also use cold water whenever possible to save energy and reduce the environmental impact of our washing process.</p>
+            </div>
+
+            <div class="fac">
+                <p class="fac-head"> Android Application </p>
+                <p class="para-fac">By downloading our app, you can easily schedule your laundry pickup directly from your smartphone or tablet. Simply choose a pickup time that works for you, and our team will come directly to your doorstep to collect your laundry. This means that you no longer have to waste time driving to our facilities or waiting in line to drop off your clothes.</p>
+             <div class="centera"><a href="https://play.google.com/store/apps/details?id=com.laundry.laundrywalaa"><button type="submit" class="btn1" id="app">Download App</button></a></div>
+            </div>
+
+            <div style="padding:60px;"><h2 class="glow-text">
+                <span style="--i:1;">W</span>
+                <span style="--i:2;">H</span>
+                <span style="--i:3;">Y</span>&nbsp;&nbsp;
+                <span style="--i:4;">C</span>
+                <span style="--i:5;">H</span>
+                <span style="--i:6;">O</span>
+                <span style="--i:7;">O</span>
+                <span style="--i:8;">S</span>
+                <span style="--i:9;">E</span>&nbsp;&nbsp;
+                <span style="--i:10;">U</span>
+                 <span style="--i:11;">S</span>
+                   <span style="--i:12;">?</span>
+                </h2></div>
+
+                <ul class="para-w p">
+                    <li>Quality: We take pride in providing the highest quality laundry services available. Our team of experts uses state-of-the-art equipment and high-quality detergents to ensure that your clothes are clean, fresh, and properly cared for.</li>
+                  <li>Convenience: We understand that your time is valuable, which is why we offer a range of convenient services to make your laundry experience as easy as possible. From on-demand pickup and delivery to our mobile app, we're always looking for ways to make laundry more convenient for our customers.</li>
+              <li>Customer service: At our laundry company, we believe that excellent customer service is the key to a successful business. That's why we go above and beyond to provide exceptional service to each and every one of our customers. Our team is always available to answer your questions and address any concerns you may have.</li>
+              <li>Eco-friendliness: We believe in doing our part to protect the environment, which is why we offer eco-friendly washing options and use sustainable practices in our facilities.</li>
+            </ul>
+            <p class="para1">In short, when you choose our laundry company, you can expect high-quality, convenient, and customizable services, exceptional customer service, and a commitment to sustainability. So why choose anyone else? Let us take care of all of your laundry needs and experience the difference for yourself!</p>
+
+            <div style="padding:60px;"><h2 class="glow-text">
+                <span style="--i:1;">A</span>
+                <span style="--i:2;">B</span>
+                <span style="--i:3;">O</span>
+                <span style="--i:4;">U</span>
+                <span style="--i:5;">T</span>&nbsp;&nbsp;&nbsp;
+                <span style="--i:6;">U</span>
+                <span style="--i:7;">S</span>
+                </h2></div>
+
+                <p class="para1 p">Welcome to Laundry Walaa - your one-step solution for all of your laundry needs. At Laundry Walaa, we pride ourselves on providing the highest quality laundry services to our customers, with a focus on convenience, affordability, and exceptional customer service.
+                    <br>
+                    Our mission is simple: to make laundry easy and stress-free for our customers. Whether you need to have your clothes washed, dried, folded, or ironed, our team of experts is here to take care of all of your laundry needs. We use state-of-the-art equipment and high-quality detergents to ensure that your clothes are properly cleaned and cared for, and we offer a range of customizable services to meet your specific needs.
+                    <br>
+                    At Laundry Walaa, we believe in making laundry convenient for our customers. That's why we offer a range of convenient services, including on-demand pickup and delivery, mobile app scheduling, and customizable service plans. Our team is always available to answer your questions and address any concerns you may have, and we take pride in providing exceptional customer service to each and every one of our customers.
+                  <br>
+                  At Laundry Walaa, we're passionate about what we do, and we're committed to providing our customers with the highest quality laundry services available. So why wait? Sign up for our services today and experience the convenience and quality that only Laundry Walaa can provide.
+               <br><br><br>
+               "Clean clothes, clear mind - there's nothing like the feeling of freshly washed clothes."
+                </p>
+
+                <p class="c-head">Address</p>
+                <p class="para1">Sonamukhi Jholi, Kharagpur-721301, West Bengal<br>Near Hijli T.V Tower</p>
+
+                <p class="c-head">Office Timming</p>
+                <p class="para1">Morning- <span style="color: red;">9:00am - 2:00pm</span><br>Sunday Closed</p>
+        
+                <p class="c-head">Contact</p>
+                <p class="para1"><i class="fa-solid fa-phone" style="color: red;"></i> 7550912384
+                <br>
+                <i class="fa-solid fa-envelope" style="color:red;"></i> laundrywala09@gmail.com
+                </p>
+
+                <div class="icons centera">
+                <i class="fa-brands fa-facebook" style="color:red;"></i> &nbsp; &nbsp; &nbsp;
+                <i class="fa-brands fa-instagram" style="color:red;"></i> &nbsp; &nbsp; &nbsp;
+                <i class="fa-brands fa-whatsapp" style="color:red;"></i>
+                </div>
+
+                <div id="scroll-top"><i class="fa-solid fa-arrow-up" style="color: black;"></i></div>
+
+        </div>
+
+         <header id="header">
+            <p class="side-logo" id="sd-logo"><img class="sd-img" src="https://bnz05pap002files.storage.live.com/y4mIh9usgT1qIP9EjYag5dUzcaOOKVt6eQN06pZL6_dxXg9I06LkD7dYQNbxb8GTbvzgXx6VSWGxKnk0BkkOHcJZpHmyrF8K0REgdAjy_gLZJQ3rn4NTs1lMX_Dg79XAj3QGaD1uSRACqKCFNsksXqecvVf-UUBIBJS0_qYuaVUD4a7BTmGAskC_NNBk5v5YDVX?width=501&height=498&cropmode=none">
+                 Laundry Walaa</p>
+                 <span id="arrow">&#10094</span>
+            <ul id="nav" class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Facilities</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+         </header>
+
+         </div>
+
+    </body>
+
+    <script type="module">
+         // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js";
+  import { getAuth, createUserWithEmailAndPassword, sendEmailVerification } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-auth.js";
+ 
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCDqQzRmuFOXQgfc12PIxzCDcHIJcIUW0I",
+    authDomain: "laundry-walaa.firebaseapp.com",
+    projectId: "laundry-walaa",
+    storageBucket: "laundry-walaa.appspot.com",
+    messagingSenderId: "164078565347",
+    appId: "1:164078565347:web:f7169029dad99f15fa52d6",
+    measurementId: "G-54QCKHK71N"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
+
+        import{ getDatabase, ref, set, child, get}
+        from "https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js";
+
+        const database = getDatabase();
+        const auth = getAuth(app);
+
+
+        const name = document.getElementById("nameInp");
+        const mobile = document.getElementById("mobInp");
+        const address = document.getElementById("addressInp");
+        const submit = document.getElementById("submit");
+        const date1 = document.getElementById("dateInp");
+
+        function write(){
+
+if(name.value!="" && mobile.value!="" &&  address.value!=""){
+
+  var j = Math.random() * 100;
+  j = Math.floor(j);
+
+
+const db = getDatabase();
+set(ref(db, "UsersList/"+ name.value+j),{
+Name: name.value,
+Address: address.value,
+Date: date1.value,
+Mobile: mobile.value,
+});
+
+
+swal({
+title: "Hurray!",
+text: "Order Confirmed!",
+icon: "success",
+button: "Next",
+});
+
+document.getElementById("form").style.display = "block";
+    document.getElementById("details").style.display = "none";
+
+}
+else{
+swal({
+text: "Please Fill All Fields",
+});
+}
+        }
+
+        submit.addEventListener("click", write);
+
+
+        var element1 = document.getElementById("nav");
+        document.getElementById("arrow").addEventListener("click", function(){
+         element1.classList.toggle("show");
+        })
+
+        let text = document.getElementById("text");
+        let text1 = document.getElementById("text1");
+        let punch = document.getElementById("punch");
+        let bird1 = document.getElementById("bird1");
+        let bird2 = document.getElementById("bird2");
+        let hang1 = document.getElementById("hang1");
+        let washmach = document.getElementById("washmach");
+        let btn1 = document.getElementById("btn1");
+        let rocks = document.getElementById("rocks");
+        let forest = document.getElementById("forest");
+        let water = document.getElementById("water");
+        let header = document.getElementById("header");
+        let sec = document.getElementById("sec");
+
+        let element2 = document.getElementById("flag");
+
+        const fadeElements = document.querySelectorAll(".p");
+        const picslider1 = document.querySelectorAll(".hang-slide");
+        var ani = document.querySelectorAll(".ani");
+
+        var lastScroll = 0;
+
+        window.addEventListener("scroll" , function(){
+            let value = window.scrollY;
+            var picto = document.querySelector(".hang-slide");
+
+            punch.style.marginTop = value * 2 + "px";
+            text.style.marginTop = value * 2 + "px";
+            text1.style.marginTop = value * 2 + "px";
+            bird1.style.top = value * -1.5 + "px";
+            bird1.style.left = value * 1 + "px";
+            bird2.style.top = value * -1 + "px";
+            bird2.style.left = value * -2 + "px";
+            btn1.style.marginTop = value * 1 + "px";
+            rocks.style.top = value * -0.11 + "px";
+            forest.style.top = value * 0.10 + "px";
+
+            fadeElements.forEach(element => {
+            let elementPos2 = element.getBoundingClientRect().top;
+            if (elementPos2 <= 565){
+                element.classList.add("fade");
+            }
+            else{
+                element.classList.remove("fade");
+            }
+        })
+
+        picslider1.forEach(element => {
+            let elementPos3 = element.getBoundingClientRect().top;
+            if (elementPos3 <= 550){
+                picto.classList.add("sl2");
+            }
+            else{
+                picto.classList.remove("sl2");
+            }
+        })
+
+        ani.forEach(element => {
+             let currentScroll = window.scrollY;
+            if (currentScroll > 0 && lastScroll <= currentScroll){
+                 lastScroll = currentScroll;
+                element.style.animationName = "bubbles";
+            }
+            else{
+                element.style.animationName = "";
+            }
+        })
+           
+            let elementPos = element2.getBoundingClientRect().top;
+            if (elementPos <= 50){
+               document.getElementById("arrow").style.color = "white"; 
+               document.getElementById("sd-logo").style.color = "white"; 
+               document.getElementById("img1").classList.add("sl1");
+            }
+            else{
+                document.getElementById("arrow").style.color = "black";
+                document.getElementById("sd-logo").style.color = "teal";  
+                document.getElementById("img1").classList.remove("sl1");
+            }
+        })
+
+        document.getElementById("scroll-top").addEventListener("click", function(){
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+   })
+
+   document.getElementById("btn1").addEventListener("click", function(){
+    document.getElementById("form").style.display = "none";
+    document.getElementById("details").style.display = "block";
+   })
+
+   document.getElementById("btn2").addEventListener("click", function(){
+    document.getElementById("form").style.display = "none";
+   document.getElementById("details").style.display = "block";
+  })
+
+    </script>
+       <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</html>
